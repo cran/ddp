@@ -1,0 +1,15 @@
+649bfeac2a0c3297cd7bf885d6d5432a *DESCRIPTION
+37bf2b2c8adc463295319bebdd67debf *NAMESPACE
+49b76a87c6b3922f4cf261d3c0205d81 *R/data.R
+e1b28e25717f8b99adf4035474106fb2 *R/database.R
+4ecdb1706f145057280fb21f65b7f0af *R/kalori.R
+613390332e1b18e49a765eafc4985602 *R/skorpph.R
+35cdf1908ea470841710119d48b66a97 *build/vignette.rds
+67d924e34556b835ffd8f16dfa7ff61d *data/simulasi.rda
+ce49c4105dbbc10b920b567a78e0dc68 *inst/doc/ddp.R
+e0cd92b95b17a210668bdc4e926b3bc6 *inst/doc/ddp.Rmd
+c8cbafc7326f309e1e5cd9830689a02e *inst/doc/ddp.html
+350d71fff989bad30bdc9260a43c1f85 *man/kalori.Rd
+8c29a471e50d324ff7653aa50345917d *man/simulasi.Rd
+b46c6c226ad68631c2b7a591cb9c53ef *man/skorpph.Rd
+e0cd92b95b17a210668bdc4e926b3bc6 *vignettes/ddp.Rmd
