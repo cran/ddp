@@ -67,6 +67,18 @@ skorpph(simulasi, wilayah = "Banten")
 skorpph(simulasi, wilayah = "Maluku")
 ```
 
+## 4. Additional function (*Fungsi tambahan*)
+
+The additional function is `valid` function. It calculates the item-rest correlation to check the validity and reliability of items. The input is a data frame/ matrix with the dimension of n x k. The total score of the items is excluded (default). However, when it is included, the index of the column of the total score has to be specified in the `total` argument.
+
+*Fungsi tambahan adalah fungsi `valid` yang menghitung korelasi antara total skor dengan tiap item. Fungi ini menghitung korelasi untuk tes validitas dan reliabilitas tiap item. Data yang dimasukkan dapat berupa data frame maupun matriks dengan dimensi n x k. Total item dapat tidak diikutsertakan pada data frame atau matriks. Jika total item dimasukkan, indeks kolomnya harus disebutkan pada argumen `total`*
+
+```{r}
+set.seed(1)
+dat <- matrix(sample(1:7,10*5, replace = TRUE), 10,5)
+valid(dat)
+```
+
 ***
 
 # References

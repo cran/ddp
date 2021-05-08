@@ -2,3 +2,6 @@
 
 export(kalori)
 export(skorpph)
+export(valid)
+importFrom(stats,cor.test)
+importFrom(stats,qt)
